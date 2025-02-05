@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+
+
+/* choices */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+
+
+.choice {
+    height: 165px;
+    width: 165px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.choice:hover {
+    background-color: #3e6591;
+    opacity: 0.7;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* scored */
+
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+
+}
+
+#user-score , #comp-score {
+    font-size: 4rem;
+}
+
+p {
+    font-weight: 600;
+}
+
+
+/* Msg-Container */ 
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+button {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* display: flex; */
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 20px;
+}
