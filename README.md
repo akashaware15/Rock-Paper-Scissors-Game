@@ -7,5 +7,5 @@
   <p> 3. <b>Paper</b> covers <b>Rock.</b></p>
   <h2>Basic Features</h2>
   <li><b><span>Player vs. Computer:</span></span></b> One player competes against a randomly chosen move by the computer.</li>
-  <li><b><span>Win/Tie/Loss Tracker:</span></b> Win/Tie/Loss Tracker: </li>
+  <li><b><span>Win/Tie/Loss Tracker:</span></b> Keep track of how many games each player has won, lost, or tied </li>
   
